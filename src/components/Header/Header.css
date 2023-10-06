@@ -1,0 +1,8 @@
+.header {
+    background-color: rgb(230, 209, 22);
+    font-style: italic;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+}
