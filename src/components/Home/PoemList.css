@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&family=Bitter&family=Lato&family=Roboto&family=Tektur:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&family=Bitter&family=Lato&family=Oswald:wght@200&family=Roboto&family=Tektur:wght@400;500;600;700;800;900&display=swap');
+
+.Marron {
+    background-color: #A0522D;
+}
+
+.Azul {
+    background-color: #4169E1;
+}
+.Turquesa {
+    background-color: #87CEFA;
+}
+
+.Anaranjado {
+    background-color: #FF8C00;
+}
+
+.Gris {
+    background-color: #A9A9A9;
+}
+
+.Rojo {
+    background-color: #f03e3e;
+}
+
+.Verde {
+    background-color: #9ACD32;
+}
+
+#contenido {
+    padding: 7px;
+    margin: 1%;
+    border-radius: 10px;
+    
+}
+
+.Encabezado {
+    /* border: 2px solid #eee3e3; */
+    border-style: ridge;
+    width: 49%; 
+    padding: 12px;
+    margin: 10px; 
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+}
+
+.Alma {
+    margin: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+
+}
+
+.Contenedor {
+    display: flex; /* Utiliza display: flex para que los elementos se distribuyan horizontalmente */
+    flex-direction: column; /* Cambia la dirección a column para apilar los elementos verticalmente */
+    gap: 10px; /* Agrega un espacio vertical de 20px entre los elementos */
+  }
