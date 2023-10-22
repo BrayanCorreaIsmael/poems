@@ -10,7 +10,7 @@ function Footer() {
 
 
         <div className="icon-container">
-        <i>Design by Bray</i>
+        <i>Design by Bray © 2023</i>
 
        
        

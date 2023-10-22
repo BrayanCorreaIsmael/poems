@@ -6,6 +6,7 @@ import './PoemList.css'
 const PoemList = ({ poems}) => {
   return (
     <div className='Contenedor'>
+      
       <h2>Colores</h2>
       {poems.map((poem) => (
         <div key={poem.id} className={poem.color} id='contenido'>
